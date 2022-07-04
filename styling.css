@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: rgb(248, 209, 120);
+    background-color: rgb(73,75,95);
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+
+.img-fluid{
+    height: 100vh;
+}
+
+
+.text{
+  color: white;
+}
+
+
+.big{
+    font-size: 5.25rem;
+}
+
+
+.biggy{
+    font-size: 1.5rem;
+   color: rgb(226,108,15)
+}
+
+.fonty{
+    font-size: 1.95rem;
+}
+
+a{
+    color: rgb(248, 209, 120);
+    text-decoration: none;
+    transition: color .75s;
+}
+
+
+a:hover{
+    color: rgb(224,165,38);
+    transition: color .75s;
+}
+
+.pudding{
+    margin-left: .75rem;
+    margin-right: .75rem;
+}
+
+
+
+@media (max-width: 991px) {
+.centre {
+    text-align: center;
+    }
+}
+
+
+@media (max-width: 991px) {
+    body{
+        background-image: url(candy.jpg);
+        height: 100vh;
+        color: rgb(223,216,212);
+    }
+}
+
+@media (max-width: 991px) {
+    .biggy{
+        
+        color: rgb(221,112,135);
+    }
+}
+
+@media (max-width: 991px) {
+    a {
+        color: rgb(223,216,212);
+    }
+}
+
+@media (max-width: 991px) {
+    a:hover {
+        color: #797B7D;
+    }
+}
